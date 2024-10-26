@@ -87,7 +87,6 @@ const Navbar = ({ showDrawer }) => {
         onClose={() => setDrawerVisible(false)}
         visible={drawerVisible}
       >
-        {/* এখানে আপনি নোটিফিকেশনের কন্টেন্ট যোগ করতে পারেন */}
         <p>No new notifications</p>
       </Drawer>
     </div>
